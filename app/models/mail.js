@@ -13,7 +13,7 @@ var Mail = {
         "port": 465,
         "auth": {
           "user": "liondejude@gmail.com",
-          "pass": "yyqweoimjemfyvvt"
+          "pass": "mdp 2-step Gamail pour cette aplication"
         }
     });
 
