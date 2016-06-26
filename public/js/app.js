@@ -105,6 +105,7 @@ function checkPassword() {
     }
 }
 
+ 
 
 
 angular.module('app', ['ngRoute'])
@@ -115,5 +116,6 @@ angular.module('app', ['ngRoute'])
     .controller('mainController', mainController)
     .controller('adminController', adminController)
     .service('connectService', connectService)
+    .service('mailService', mailService)
     .service('userService', userService)
     .run(run);
